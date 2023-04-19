@@ -1,0 +1,11 @@
+on: 
+  workflow_dispatch: 
+  
+name: exemplo-actions
+
+jobs:
+  run-code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: escrever-mensagem
+        run: echo "Olá GitHub Actions!"
