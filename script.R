@@ -1,3 +1,7 @@
+install.packages("httr")
+install.packages("fs")
+
+
 library(httr)
 library(fs)
 
