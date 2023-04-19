@@ -1,3 +1,4 @@
+install.packages("curl")
 install.packages("httr")
 install.packages("fs")
 
