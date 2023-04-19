@@ -1,8 +1,3 @@
-install.packages("curl")
-install.packages("httr")
-install.packages("fs")
-
-
 library(httr)
 library(fs)
 
@@ -22,4 +17,8 @@ POST(url_download, write_disk(file_name, overwrite = TRUE))
 
 print("Checking which files we have:")
 dir_ls()
+
+# ajudar o jorge no erro do gmail - ele vai enviar por email
+# arrumar o actions e passar no começo da aula como foi pra arrumar
+# Mariana - acompanhar se deu certo instalar o Git e configurar com o GitHub
 
